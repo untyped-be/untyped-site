@@ -1,4 +1,4 @@
-baseurl = "http://untyped.be/"
+baseurl = "https://untyped.be/"
 languageCode = "en-us"
 title = "Untyped"
 theme = "hugo-strata-theme"
