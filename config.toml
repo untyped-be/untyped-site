@@ -1,66 +1,7 @@
 baseurl = "https://untyped.be/"
 languageCode = "en-us"
 title = "Untyped"
-theme = "hugo-strata-theme"
+theme = "hyde"
 
 [params]
-	# To provide some metadata for search engines feel free to add a few
-    # information about you and your website.
-	name = "Untyped"
-	description = "I'm a freelancer in user interface, user experience and software design with over 5 years experience. Freelancing 24/7 and always passionate about new projects"
-
-	# Enable Google Analytics by inserting your tracking code
-	googleAnalytics = ""
-
-
-	[params.sidebar]
-		# Replace the avatar with a picture of your own under static/images
-		avatar = "avatar.jpg"
-		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "Design the best possible solution"
-		# The icons will be shown if you enter your username
-		twitter = "huugsy"
-		github = "huug"
-		dribbble = "huugsy"
-
-		copyright = [
-			"Powered by: [Hugo](//gohugo.io)",
-			"Design by: [HTML5 UP](//html5up.net)",
-			"Background image: [Unsplash](//unsplash.com/)"
-		]
-
-
-	[params.about]
-		title = "Untyped"
-		content = "Hello, my name is **Hugues Huygens**. As a designer and developer, I like to create easy-to-use and beautiful user interfaces for web and mobile applications."
-
-	[params.contact]
-		title = "Get In Touch"
-		content = "Let's talk about your project"
-
-		address = [
-			"Vesten 47",
-			"1785, Merchtem",
-			"Belgium"
-		]
-
-		# Since this template is static, the contact form uses www.formspree.io as a
-		# proxy. The form makes a POST request to their servers to send the actual
-		# email. Visitors can send up to a 1000 emails each month for free.
-	    #
-	    # What you need to do for the setup?
-	    #
-	    # - set your email address under 'email' below
-	    # - upload the generated site to your server
-	    # - send a dummy email yourself to confirm your account
-	    # - click the confirm link in the email from www.formspree.io
-	    # - you're done. Happy mailing!
-		email = "info@untyped.be"
-
-		[params.contact.form]
-			# Set custom strings for the form if your native
-			# language isn't English
-			name = "Name"
-			email = "Email"
-			message = "Message"
-			submit = "Send"
+  themeColor = "theme-base-09"
