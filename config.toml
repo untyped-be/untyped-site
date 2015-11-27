@@ -1,7 +1,7 @@
 baseurl = "http://sleepy-lowlands-7591.herokuapp.com/"
 languageCode = "en-us"
 title = "Untyped"
-theme = "hyde"
+theme = "untyped"
 
 [params]
-  themeColor = "theme-base-09"
+  description = "Untyped description"

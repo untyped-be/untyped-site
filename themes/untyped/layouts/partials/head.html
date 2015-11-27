@@ -1,0 +1,15 @@
+<head>
+    <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="author" content="{{ with .Site.Author }}{{ . }}{{ end }}">
+    <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
+
+    {{ .Hugo.Generator }}
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="css/main.css"/>
+</head>
