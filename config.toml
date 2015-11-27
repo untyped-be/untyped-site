@@ -1,4 +1,4 @@
-baseurl = "http://sleepy-lowlands-7591.herokuapp.com/"
+baseurl = "http://untyped.herokuapp.com/"
 languageCode = "en-us"
 title = "Untyped"
 theme = "untyped"
