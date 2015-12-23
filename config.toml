@@ -2,6 +2,7 @@ baseurl = "http://untyped.herokuapp.com/"
 languageCode = "en-us"
 title = "Untyped"
 theme = "untyped"
+author = "Hugues Huygens"
 
 [params]
   description = "Untyped description"
