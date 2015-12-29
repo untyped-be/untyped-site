@@ -71,15 +71,18 @@ h1 {
     text-shadow: 0 1px 0 white;
 }
 
-section > p {
+section > p,
+section > ul {
     padding: 10px;
+    background-color: white;
 }
 
 body {
-    font-family: 'Cutive Mono', Courier, monospace;
+    font-family: 'Cutive Mono', monospace;
     font-size: 19px;
     line-height: 1.5;
     color: #333333;
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAI0lEQVQYV2NkIAJ8/fr1PyMR6sBKiFI4gk0EeZ2bm5uREA0AdqonYX36AnoAAAAASUVORK5CYII=) repeat;
 }
 
 .wrapper {
@@ -87,21 +90,37 @@ body {
     height: 100%;
     width: 100%;
     max-width: 640px;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 .logo {
     font-family: 'Geo', sans-serif;
-    font-size: 42px;
-    border: 3px solid black;
-    padding: 0px 8px 6px 8px;
-    display: inline-block;
-    margin: 30px;
+    font-size: 56px;
+    border: 4px solid black;
+    padding: 0px 8px 8px 8px;
+    margin: 10px;
     color: black;
     background-color: whitesmoke;
     text-shadow: 0 1px 0 white;
+    text-align: center;
 }
 
-.line-through {
-    text-decoration: line-through;
+section > p a {
+    background-color: whitesmoke;
+    color: #333333;
+    text-decoration: none;
+    border-bottom: 1px solid black;
 }
+
+section > p a:hover,
+section > p a:focus {
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+section > p a:active {
+    position: relative;
+    top: 1px;
+}
+
