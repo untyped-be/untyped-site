@@ -71,9 +71,13 @@ h1 {
     text-shadow: 0 1px 0 white;
 }
 
-section > p,
-section > ul {
+section > p {
     padding: 10px;
+    background-color: white;
+}
+
+section > ul {
+    padding: 0 10px;
     background-color: white;
 }
 
@@ -90,19 +94,24 @@ body {
     height: 100%;
     width: 100%;
     max-width: 640px;
-    margin: 30px auto;
+    margin: 0 auto;
 }
 
 .logo {
     font-family: 'Geo', sans-serif;
     font-size: 56px;
-    border: 4px solid black;
+    border-bottom: 4px solid black;
     padding: 0px 8px 8px 8px;
-    margin: 10px;
+    margin: 0 10px;
     color: black;
     background-color: whitesmoke;
     text-shadow: 0 1px 0 white;
     text-align: center;
+}
+
+.intro {
+    padding: 0 10px;
+    margin-bottom: 10px;
 }
 
 section > p a {
@@ -122,5 +131,15 @@ section > p a:focus {
 section > p a:active {
     position: relative;
     top: 1px;
+}
+
+footer {
+    background-color: #333;
+    color: whitesmoke;
+    border-top: 3px solid whitesmoke;
+}
+
+footer > .wrapper {
+    padding: 15px 10px;
 }
 
