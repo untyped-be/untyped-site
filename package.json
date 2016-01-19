@@ -1,0 +1,8 @@
+{
+  "name": "Untyped harp",
+  "version": "1.0.0",
+  "description": "Untyped on Heroku",
+  "dependencies": {
+    "harp": "*"
+  }
+}
