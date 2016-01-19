@@ -1,7 +1,7 @@
 {
-  "name": "Untyped harp",
+  "name": "My-Harp-App",
   "version": "1.0.0",
-  "description": "Untyped on Heroku",
+  "description": "A Harp App on Heroku",
   "dependencies": {
     "harp": "*"
   }
